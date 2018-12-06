@@ -1,5 +1,8 @@
 #Created by Zamanry, 06/02/2018.
-#Fully functioning as of 06/18/2018.
+#Fully functioning as of 12/05/2018.
+
+#Start with a clean slate
+netsh advfirewall firewall delete rule name=all
 
 #Import Windows Firewall
 Write-Host "Installing firewall."
